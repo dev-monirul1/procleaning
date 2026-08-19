@@ -1,0 +1,64 @@
+/* ====== common css start ====== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    max-width: 1170px !important;
+}
+/* ===== common css end ===== */
+
+/* ===== navbar css start ======= */
+.navbar-nav{
+    gap: 29px !important;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.btn{
+     font-family: "Poppins", sans-serif;
+    border: none;
+    background-color: #36B864;
+    color: white;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: auto;
+    border-radius: 6px;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-color: white;
+    color: #36B864;
+    border: 1px solid #36B864 transparent;
+    
+}
+/* ======= navbar css end ======= */
+
+/* ====== banner css start ======= */
+#banner{
+    padding: 104px 0;
+    background: url(../images/pic\ 2.png);
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.bannerContent h5{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #111D15;
+    padding-bottom: 12px;
+}
+.bannerContent h1{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 115%;
+}
+/* ====== banner css end ====== */
