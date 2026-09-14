@@ -23,6 +23,17 @@ h1,h2,h3,h4,h5,h6,p{
     gap: 29px !important;
     font-family: "Be Vietnam Pro", sans-serif;
 }
+.nav-item .a{
+    color: #4D4D4D;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.nav-item a:hover{
+    color: #36B864 !important;
+}
 .btn{
      font-family: "Poppins", sans-serif;
     border: none;
@@ -39,6 +50,9 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: white;
     color: #36B864;
     border: 1px solid #36B864 transparent;
+    box-shadow: 1px 1px 20px -1px rgba(0,0,0,0.79);
+-webkit-box-shadow: 1px 1px 20px -1px rgba(0,0,0,0.79);
+-moz-box-shadow: 1px 1px 20px -1px rgba(0,0,0,0.79);
     
 }
 /* ======= navbar css end ======= */
@@ -62,3 +76,30 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 115%;
 }
 /* ====== banner css end ====== */
+
+/* ====== footer css start ====== */
+#footer{
+    background-color: #111D15;
+    padding-top: 100px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.footerLogoPart p{
+    margin-top: 24px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 160%;
+    width: 356px;
+    opacity: .8;
+}
+/* ====== footer css end ====== */
+
+
+
+
+
+/* font-family: "Be Vietnam Pro", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Oregano", cursive; */
+/* font-family: "Outfit", sans-serif; */
+/* font-family: "Lato", sans-serif; */
