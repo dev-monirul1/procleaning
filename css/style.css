@@ -36,8 +36,8 @@ h1,h2,h3,h4,h5,h6,p{
     color: #36B864 !important;
 }
 .btn{
-     font-family: "Poppins", sans-serif;
-    border: none;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid transparent;
     background-color: #36B864;
     color: white;
     padding: 12px 32px;
@@ -48,36 +48,67 @@ h1,h2,h3,h4,h5,h6,p{
     transition: all 0.4s;
 }
 .btn:hover{
-    background-color: white;
-    color: #36B864;
-    border: 1px solid #36B864 transparent;
-    box-shadow: 1px 1px 20px -1px rgba(0,0,0,0.79);
--webkit-box-shadow: 1px 1px 20px -1px rgba(0,0,0,0.79);
--moz-box-shadow: 1px 1px 20px -1px rgba(0,0,0,0.79);
+    background-color: transparent;
+    color: #111D15;
+    border: 1px solid #666666;
     
 }
 /* ======= navbar css end ======= */
 
 /* ====== banner css start ======= */
 #banner{
-    padding: 104px 0;
     background: url(../images/pic\ 2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: "Be Vietnam Pro", sans-serif;
 }
+.bannerContent{
+    padding: 180px 0;
+}
 .bannerContent h5{
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
     color: #111D15;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 .bannerContent h1{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 52px;
     line-height: 115%;
+    color: #111D15;
+    width: 610px;
+    margin-bottom: 24px;
+}
+.bannerContent p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    width: 543px;
+    margin-bottom: 40px;
+}
+.bannerBtnFlex{
+    display: flex;
+    gap: 25px;
+}
+.bannerBtnFlex a{
+    border: 1px solid transparent;
+    background-color: #36B864;
+    color: white;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: auto;
+    border-radius: 6px;
+    transition: all 0.4s;
+}
+
+.bannerBtnFlex a:hover{
+    background-color: transparent;
+    color: #111D15;
+    border: 1px solid #666666;
 }
 /* ====== banner css end ====== */
 
