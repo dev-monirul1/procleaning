@@ -115,6 +115,27 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== service css start ====== */
 #service{
     padding: 150px 0 75px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.serviceHeading h3{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    width: 536px;
+    text-transform: capitalize;
+}
+.serviceHeading h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #111D15;
+}
+.serviceHeading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 150%;
+    width: 433px;
 }
 /* ====== service css end ====== */
 
