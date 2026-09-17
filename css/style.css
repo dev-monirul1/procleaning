@@ -249,6 +249,15 @@ h1,h2,h3,h4,h5,h6,p{
     border: 1px solid #666666;
     
 }
+.service2Img{
+    margin-left: 85px;
+    position: relative;
+}
+.service2ImgUp{
+    position: absolute;
+    bottom: -42px;
+    left: -100px;
+}
 /* ====== service2 css end ====== */
 
 /* ====== footer css start ====== */
