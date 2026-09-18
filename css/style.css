@@ -333,6 +333,20 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ====== members css end ====== */
 
+/* ====== company css start ====== */
+#company{
+    padding: 75px 0;
+}
+.companyImg{
+    position: relative;
+}
+.companyImgUp{
+    position: absolute;
+    bottom: -48px;
+    right: -170px;
+}
+/* ====== company css end ====== */
+
 /* ====== footer css start ====== */
 #footer{
     background-color: #111D15;
