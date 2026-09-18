@@ -345,6 +345,78 @@ h1,h2,h3,h4,h5,h6,p{
     bottom: -48px;
     right: -170px;
 }
+.companyContent h3{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 120%;
+    color: #111D15;
+    width: 525px;
+    margin-bottom: 16px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.companyContent p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #666666;
+    width: 525px;
+    margin-bottom: 32px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.companyFlex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    row-gap: 16px;
+}
+.companyFlex h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #111D15;
+    padding: 12px 10px;
+    background-color: #F5F4F4;
+    display: inline-block;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-family: "Lato", sans-serif;
+}
+.companyFlex h6 i{
+    color: #36B864;
+    padding-right: 8px;
+}
+.companyBtnWrap{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+.companyBtnWrap a{
+    font-family: "Lato", sans-serif;
+    padding: 12px 32px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #36B864;
+    border: 1px solid transparent;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.companyBtnWrap a:hover{
+    background-color: transparent;
+    color: #111D15;
+    border: 1px solid #666666;
+}
 /* ====== company css end ====== */
 
 /* ====== footer css start ====== */
