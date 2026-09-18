@@ -447,10 +447,10 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== blog css start ====== */
 #blog{
     padding: 75px 0;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 .blogHeading{
     margin-bottom: 40px;
-    font-family: "Be Vietnam Pro", sans-serif;
 }
 .blogHeading h3{
     font-weight: 600;
@@ -477,11 +477,94 @@ h1,h2,h3,h4,h5,h6,p{
     height: 2px;
     background-color: #83A790;
 }
+.blogImg{
+    position: relative;
+    z-index: 1;
+}
+.blogImg img{
+    /* position: relative; */
+    z-index: 2;
+}
+.overly{
+    position: absolute;
+    background-color: rgba(54, 184, 100, 0.30);
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    -webkit-border-radius: 25px 25px 0 0;
+    -moz-border-radius: 25px 25px 0 0;
+    -ms-border-radius: 25px 25px 0 0;
+    -o-border-radius: 25px 25px 0 0;
+    opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
 .blogBox .card .card-body{
     text-align: center;
 }
-.card-body span{
-    
+.blogBox .card .card-body span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 12px;
+}
+.blogBox .card .card-body h5{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111D15;
+    line-height: 120%;
+    margin-bottom: 16px;
+    width: 318px;
+    display: inline-block;
+}
+.blogBox .card .card-body p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #666666;
+    line-height: 150%;
+    margin-bottom: 24px;
+    width: 320px;
+    display: inline-block;
+}
+.blogBoxLine{
+    margin-bottom: 18px;
+    height: 1px;
+    background-color: #D8D8D8;
+}
+.blogBox .card .card-body a{
+    color: #666666;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 117px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    text-decoration: underline;
+}
+.blogBox .card:hover .card-body a{
+    background-color: #36B864;
+    color: #fff;
+    text-decoration: none;
+}
+.blogBox .card:hover .blogBoxLine{
+    visibility: hidden;
+}
+.blogBox .card:hover .overly{
+    opacity: 1;
 }
 /* ====== blog css end ====== */
 
