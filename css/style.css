@@ -293,6 +293,44 @@ h1,h2,h3,h4,h5,h6,p{
     height: 2px;
     background-color: #83A790;
 }
+.memberBox .card{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.memberIconFlex{
+    display: flex;
+    gap: 5px;
+    color: #FF9800;
+    margin-bottom: 16px;
+}
+.memberBox .card .card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    width: 299px;
+    margin-bottom: 20px;
+}
+.memberIconWrap{
+    display: flex;
+    gap: 12px;
+}
+.memberIconWrap a i{
+    color: #111D15;
+    font-size: 24px;
+}
+.memberBox .card:hover{
+    border: 1px solid #83A790;
+}
 /* ====== members css end ====== */
 
 /* ====== footer css start ====== */
