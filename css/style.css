@@ -444,6 +444,47 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ====== company css end ====== */
 
+/* ====== blog css start ====== */
+#blog{
+    padding: 75px 0;
+}
+.blogHeading{
+    margin-bottom: 40px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.blogHeading h3{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 120%;
+    color: #111D15;
+    width: 570px;
+}
+.blogHeading h6{
+    font-weight: 600;
+    font-size: 20px;
+    color: #111D15;
+    margin-bottom: 12px;
+}
+.blogHeading p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+.blogLine{
+    margin-bottom: 40px;
+    width: 100%;
+    height: 2px;
+    background-color: #83A790;
+}
+.blogBox .card .card-body{
+    text-align: center;
+}
+.card-body span{
+    
+}
+/* ====== blog css end ====== */
+
 /* ====== footer css start ====== */
 #footer{
     background-color: #111D15;
