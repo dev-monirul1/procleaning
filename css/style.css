@@ -505,14 +505,23 @@ h1,h2,h3,h4,h5,h6,p{
     -o-border-radius: 200px;
     color: #111D15;
 }
+.priceCardParent{
+    position: relative;
+}
 .priceCard{
+    position: absolute;
+    margin-top: 50px;
     background-color: #fff;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
-    -o-border-radius: 20px;  
+    -o-border-radius: 20px; 
+    padding: 30px 35px; 
 }
 
 .priceCard h5{
@@ -521,18 +530,24 @@ h1,h2,h3,h4,h5,h6,p{
     text-align: center;
     color: #111D15;
     text-transform: uppercase;
-    
+    margin-bottom: 24px;
 }
 .priceTag{
     background: #36B864;
-    padding: 20px 40px;
+    padding: 20px 30px;
     text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 36px;
 }
 .priceTag h3{
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    text-transform: uppercase;
+    
   
 }
 .priceTag h3 span{
@@ -540,12 +555,95 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 700;
     color: #fff;
     text-align: center;
-    text-transform: uppercase;
+
+}
+.unorder li::marker{
+    font-size: 14px;
 }
 .unorder li{
     list-style: disc;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.priceBtn{
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
+.priceBtn a{
+   font-size: 16px;
+   font-weight: 400;
+   color: #111D15;
+   border: 1px solid #666666;
+   padding: 20px 107px;
+   border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   -ms-border-radius: 6px;
+   -o-border-radius: 6px;
+   transition: .5s;
+   -webkit-transition: .5s;
+   -moz-transition: .5s;
+   -ms-transition: .5s;
+   -o-transition: .5s;
+}
+.priceCard:hover .priceBtn a{
+    background-color: #36B864;
+    border: 1px solid transparent;
+    color: #fff;
 }
 /* ====== price css end ====== */
+
+/* ====== experience css start ====== */
+#experience{
+    margin-top: 348px;
+    padding: 77px 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.experienceContent h3{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 120%;
+    width: 500px;
+    margin-bottom: 24px;
+    color: #111D15;
+}
+.experienceContent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    width: 419px;
+    margin-bottom: 36px;
+    color: #666666;
+}
+.experienceIconWrap{
+    display: flex;
+    gap: 12px;
+}
+.experienceIcon{
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid #36B864;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #36B864;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.experienceIcon:hover{
+    background-color: #36B864;
+    border: 1px solid transparent;
+    color: #fff;
+}
+/* ====== experience css end ====== */
 
 /* ====== blog css start ====== */
 #blog{
