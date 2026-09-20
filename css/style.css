@@ -834,7 +834,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-family: "Be Vietnam Pro", sans-serif;
 }
 .contactContent {
-    margin-top: 73px;
+    margin-top: 130px;
 }
 .contactContent h4{
     font-size: 40px;
@@ -881,6 +881,91 @@ h1,h2,h3,h4,h5,h6,p{
     color: #666666;
     line-height: 120%;
     font-family: "Work Sans", sans-serif;
+}
+.contactForm h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 8px;
+    color: #111D15;
+}
+.contactForm h4{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 16px;
+    color: #111D15;
+}
+.contactForm p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -1%;
+    margin-bottom: 40px;
+    color: #666666;
+    width: 500px;
+}
+.contactForm label{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 30px;
+}
+.contactForm label input{
+    background-color: #F3F3F3;
+    padding: 18px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.contactForm label input:focus , .contactForm label textarea:focus{
+    border: none;
+    outline: none;
+}
+.contactForm label textarea{
+    background-color: #F3F3F3;
+    padding: 18px 20px 60px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    width: 100%;
+    border: none;
+    resize: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.contactForm button{
+    background-color: #36B864;
+    border: 2px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.contactForm button:hover{
+    background-color: transparent;
+    border: 2px solid #36B864;
+    color: #36B864;
 }
 /* ====== contact css end ====== */
 
