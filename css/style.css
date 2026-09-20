@@ -831,6 +831,56 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== contact css start ====== */
 #contact{
     padding: 75px 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.contactContent {
+    margin-top: 73px;
+}
+.contactContent h4{
+    font-size: 40px;
+    font-weight: 500;
+    color: #111D15;
+    margin-bottom: 40px;
+}
+.contactBoxWrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.contactBox{
+    background-color: #FBFBFB;
+    padding: 20px;
+    display: flex;
+    gap: 12px;
+}
+.contactIcon{
+    width: 54px;
+    height: 54px;
+    background-color: #36B864;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+.contactBox .contactBoxText h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #111D15;
+    letter-spacing: 3%;
+    margin-bottom: 8px;
+}
+.contactBox .contactBoxText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 120%;
+    font-family: "Work Sans", sans-serif;
 }
 /* ====== contact css end ====== */
 
