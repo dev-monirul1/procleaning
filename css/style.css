@@ -643,6 +643,65 @@ h1,h2,h3,h4,h5,h6,p{
     border: 1px solid transparent;
     color: #fff;
 }
+.experienceContent2{
+    background-color: #36B864;
+    padding: 10px 8px 0 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.experienceContent2Flex{
+    display: flex;
+    gap: 24px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.experienceContent2Flex .experienceText{
+    margin-top: 32px;
+    position: relative;
+}
+.experienceUpIcon{
+    position: absolute;
+    top: 0;
+    right: 61px;
+
+}
+.experienceContent2Flex .experienceText h6{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #111D15;
+}
+.experienceContent2Flex .experienceText span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #666666;
+    margin-top: 12px ;
+}
+.experienceStarFlex{
+    margin-top: 12px;
+    display: flex;
+    gap: 4px;
+    color: #FF9800;
+    margin-bottom: 16px;
+}
+.experienceContent2Flex .experienceText p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #666666;
+    width: 366px;
+}
 /* ====== experience css end ====== */
 
 /* ====== blog css start ====== */
