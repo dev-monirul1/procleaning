@@ -1,7 +1,7 @@
 
- /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+ /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-/* ==== navbar start ==== */
+    /* ==== navbar start ==== */
 .navbar-brand img{
     width: 80px;
     height: 20px;
@@ -11,29 +11,88 @@
 }
 .navbar-toggler{
     color: #36B864 !important;
+    font-size: 10px;
+}
+.navbar-nav{
+    gap: 5px !important;
+}
+.nav-link{
+    font-size: 10px;
 }
 .navBtn{
     text-align: center;
 }
-/* ==== navbar end ==== */
+.btn{
+    padding: 8px 16px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.4s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
+/* ==== navbar end ==== */
 
- /* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
+/* ==== banner start ==== */
+.bannerContent{
+    padding: 90px 0;
+}
+.bannerContent h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90%;
+    margin-bottom: 8px;
+}
+.bannerContent h1{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 115%;
+    max-width: 230px;
+    margin-bottom: 12px;
+}
+.bannerContent p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    max-width: 220px;
+    margin-bottom: 20px;
+}
+.bannerBtnFlex{
+    gap: 12px;
+}
+.bannerBtnFlex a{
+    padding: 8px 18px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.4s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* ==== banner end ==== */
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
 
  }
 
- /* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
 
  }
 
-/* `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 
  }
 
- /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
 
  }
