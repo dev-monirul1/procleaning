@@ -75,6 +75,22 @@
     -o-border-radius: 5px;
 }
 /* ==== banner end ==== */
+
+/* ==== service start ==== */
+#service{
+    padding: 50px 0 ;
+}
+.serviceHeading h3{
+    font-size: 20px;
+}
+.serviceHeading h6{
+    font-size: 16px;
+
+}
+.serviceHeading p{
+    font-size: 12px;
+}
+/* ==== service end ==== */
  }
 
 /* Small devices (landscape phones, 576px and up) */

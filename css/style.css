@@ -14,9 +14,7 @@ a{
 h1,h2,h3,h4,h5,h6,p{
     line-height: 0.8;
 }
-.container{
-    max-width: 1170px !important;
-}
+
 /* ===== common css end ===== */
 
 /* ===== navbar css start ======= */
