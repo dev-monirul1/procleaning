@@ -40,10 +40,10 @@
     padding: 90px 0;
 }
 .bannerContent h5{
-    font-weight: 400;
     font-size: 16px;
     line-height: 90%;
     margin-bottom: 8px;
+    max-width: 250px;
 }
 .bannerContent h1{
     font-weight: 600;
@@ -82,14 +82,28 @@
 }
 .serviceHeading h3{
     font-size: 20px;
+    max-width: 300px;
 }
 .serviceHeading h6{
     font-size: 16px;
-
 }
 .serviceHeading p{
     font-size: 12px;
+    max-width: 300px;
 }
+.card{
+  
+}
+.card-body h5{
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+.card-body p{
+    font-size: 10px;
+    max-width: 350px;
+    margin-bottom: 24px;
+}
+
 /* ==== service end ==== */
  }
 
