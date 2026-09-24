@@ -251,6 +251,7 @@ h1,h2,h3,h4,h5,h6,p{
 .service2Img{
     margin-left: 85px;
     position: relative;
+    aspect-ratio: ;
 }
 .service2ImgUp{
     position: absolute;
