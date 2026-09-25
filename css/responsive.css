@@ -78,7 +78,7 @@
 
 /* ==== service start ==== */
 #service {
-        padding: 60px 15px 30px 15px;
+        padding: 60px 0 30px;
     }
 .serviceHeading h3{
     font-size: 20px;
@@ -316,10 +316,11 @@
 
 /* ==== contact start ==== */
 #contact {
-        padding: 40px 15px;
+        padding: 20px 15px 40px;
     }
 
     .contactContent {
+        margin-top: 0;
         margin-bottom: 40px;
     }
 
@@ -372,6 +373,46 @@
 
 }
 /* ==== contact end ==== */
+
+/* ==== footer start ==== */
+#footer{
+    padding: 50px 0 20px;
+}
+.footerLogoPart p{
+    font-size: 12px;
+}
+.footerMenu h5{
+    margin-top: 25px;
+    font-size: 22px;
+}
+.footerMenu ul{
+    margin-top: 26px;
+    row-gap: 12px;
+}
+.footerMenu ul li a{
+    font-size: 14px;
+}
+.footerForm h5{
+    margin-top: 25px;
+    font-size: 22px;
+}
+.footerForm form input[type="email"]{
+    padding: 8px 12px;
+}
+.footerForm form input::placeholder{
+    font-size: 12px;
+}
+.footerForm a{
+    font-size: 12px;
+    padding: 8px 20px;
+}
+.copy{
+    margin-top: 32px;
+}
+.copy h6{
+    font-size: 12px;
+}
+/* ==== footer end ==== */
  
 
 /* Small devices (landscape phones, 576px and up) */
