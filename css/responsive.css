@@ -313,7 +313,66 @@
     padding: 10px 50px;
 }
 /* ==== blog end ==== */
- }
+
+/* ==== contact start ==== */
+#contact {
+        padding: 40px 15px;
+    }
+
+    .contactContent {
+        margin-bottom: 40px;
+    }
+
+    .contactContent h4 {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+
+    .contactBox {
+        padding: 14px;
+    }
+
+    .contactIcon {
+        width: 42px;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .contactBox .contactBoxText h6 {
+        font-size: 12px;
+    }
+
+    .contactBox .contactBoxText p {
+        font-size: 10px;
+    }
+
+    .contactForm h4 {
+        font-size: 22px;
+    }
+
+    .contactForm p {
+        font-size: 12px;
+        line-height: 150%;
+        width: 330px;
+    }
+
+    .contactForm label input {
+        padding: 14px;
+        font-size: 12px;
+    }
+
+    .contactForm label textarea {
+        padding: 14px 14px 45px;
+        font-size: 12px;
+    }
+
+    .contactForm button {
+        padding: 10px 18px;
+    }
+
+}
+/* ==== contact end ==== */
+ 
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
