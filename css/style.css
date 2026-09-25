@@ -115,6 +115,7 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 150px 0 75px;
     font-family: "Be Vietnam Pro", sans-serif;
 }
+
 .serviceHeading h3{
     font-size: 44px;
     font-weight: 600;
@@ -144,7 +145,6 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .card{
     border: none;
-    aspect-ratio: 696/492;
 }
 .card-body h5{
     color: #111D15;
@@ -339,7 +339,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .companyImg{
     position: relative;
+    aspect-ratio: 430/394;
 }
+
 .companyImgUp{
     position: absolute;
     bottom: -48px;

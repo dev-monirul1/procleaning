@@ -77,15 +77,17 @@
 /* ==== banner end ==== */
 
 /* ==== service start ==== */
-#service{
-    padding: 50px 0 ;
-}
+#service {
+        padding: 60px 15px 30px 15px;
+    }
 .serviceHeading h3{
     font-size: 20px;
     max-width: 300px;
+    margin-bottom: 20px;
 }
 .serviceHeading h6{
     font-size: 16px;
+    max-width: 300px;
 }
 .serviceHeading p{
     font-size: 12px;
@@ -105,19 +107,6 @@
 }
 .card-body .btn{
     padding: 8px 16px;
-    color: #111D15;
-    background-color: transparent;
-    border: 1px solid #666666;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
 }
 
 /* ==== service end ==== */
@@ -186,10 +175,14 @@
 #company{
     padding: 10px 0;
 }
+.companyImg{
+
+    position: relative;
+}
 .companyImgUp{
     position: absolute;
     bottom: -28px;
-    right: -50px;
+    right: -12px;
 }
 .companyContent h3{
     margin-top: 50px;
@@ -200,8 +193,13 @@
     font-size: 12px;
     width: 335px;
 }
+.companyWrapper{
+    display: flex;
+    gap: 20px;
+}
 .companyFlex1 h6 , .companyFlex2 h6{
     font-size: 12px;
+    width: 174px;
 }
 .companyBtnWrap{
     margin-top: 36px;
@@ -283,6 +281,38 @@
     width: 200px;
 }
 /* ==== experience end ==== */
+
+/* ==== blog start ==== */
+#blog{
+    padding: 50px 0;
+}
+.blogHeading{
+    margin-bottom: 20px;
+}
+.blogHeading h3{
+    font-size: 22px;
+    width: 350px;
+}
+.blogHeading h6{
+    font-size: 14px;
+}
+.blogHeading p{
+    font-size: 10px;
+}
+.blogBox .card .card-body span{
+    font-size: 10px;
+}
+.blogBox .card .card-body h5{
+    font-size: 16px;
+}
+.blogBox .card .card-body p{
+    font-size: 12px;
+}
+.blogBox .card .card-body a{
+    font-size: 12px;
+    padding: 10px 50px;
+}
+/* ==== blog end ==== */
  }
 
 /* Small devices (landscape phones, 576px and up) */
