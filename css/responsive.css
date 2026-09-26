@@ -1,356 +1,434 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
 
- /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
     /* ==== navbar start ==== */
-.navbar-brand img{
-    width: 100px;
-    height: 30px;
-}
-.navbar-nav{
-    text-align: center;
-}
-.navbar-toggler{
-    color: #36B864 !important;
-    font-size: 15px;
-}
-.navbar-nav{
-    gap: 5px !important;
-}
-.nav-link{
-    font-size: 10px;
-}
-.navBtn{
-    text-align: center;
-}
-.btn{
-    padding: 8px 16px;
-    font-size: 10px;
-}
-/* ==== navbar end ==== */
+    .navbar-brand img {
+        width: 100px;
+        height: 30px;
+    }
 
-/* ==== banner start ==== */
-.bannerContent{
-    padding: 90px 0;
-}
-.bannerContent h5{
-    font-size: 16px;
-    line-height: 90%;
-    margin-bottom: 8px;
-    max-width: 250px;
-}
-.bannerContent h1{
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 115%;
-    max-width: 330px;
-    margin-bottom: 12px;
-}
-.bannerContent p{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #666666;
-    max-width: 220px;
-    margin-bottom: 20px;
-}
-.bannerBtnFlex{
-    gap: 12px;
-}
-.bannerBtnFlex a{
-    padding: 8px 18px;
-    font-size: 10px;
-}
-/* ==== banner end ==== */
+    .navbar-nav {
+        text-align: center;
+    }
 
-/* ==== service start ==== */
-#service {
+    .navbar-toggler {
+        color: #36B864 !important;
+        font-size: 15px;
+    }
+
+    .navbar-nav {
+        gap: 5px !important;
+    }
+
+    .nav-link {
+        font-size: 10px;
+    }
+
+    .navBtn {
+        text-align: center;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    /* ==== navbar end ==== */
+
+    /* ==== banner start ==== */
+    .bannerContent {
+        padding: 90px 0;
+    }
+
+    .bannerContent h5 {
+        font-size: 16px;
+        line-height: 90%;
+        margin-bottom: 8px;
+        max-width: 250px;
+    }
+
+    .bannerContent h1 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 115%;
+        max-width: 330px;
+        margin-bottom: 12px;
+    }
+
+    .bannerContent p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #666666;
+        max-width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .bannerBtnFlex {
+        gap: 12px;
+    }
+
+    .bannerBtnFlex a {
+        padding: 8px 18px;
+        font-size: 10px;
+    }
+
+    /* ==== banner end ==== */
+
+    /* ==== service start ==== */
+    #service {
         padding: 60px 0 30px;
     }
-.serviceHeading h3{
-    font-size: 20px;
-    max-width: 300px;
-    margin-bottom: 20px;
-}
-.serviceHeading h6{
-    font-size: 16px;
-    max-width: 300px;
-}
-.serviceHeading p{
-    font-size: 12px;
-    max-width: 300px;
-}
-.card{
-    margin-bottom: 20px;
-}
-.card-body h5{
-    font-size: 12px;
-    margin-bottom: 16px;
-}
-.card-body p{
-    font-size: 10px;
-    max-width: 340px;
-    margin-bottom: 24px;
-}
-.card-body .btn{
-    padding: 8px 16px;
-}
 
-/* ==== service end ==== */
+    .serviceHeading h3 {
+        font-size: 20px;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
 
-/* ==== service2 start ==== */
-#service2{
-    padding: 0 0 50px;
-}
-.service2Content{
-    margin-bottom: 40px;
-}
-.service2Content h6{
-    font-size: 15px;
-    margin-bottom: 16px;
-}
-.service2Content h3{
-    font-size: 22px;
-    max-width: 350px;
-    margin-bottom: 20px;
-}
-.service2Content p{
-    font-size: 12px;
-    line-height: 16px;
-    margin-bottom: 30px;
-}
-.service2Content a{
-    padding: 8px 20px;
-    font-size: 12px;
-}
-/* ==== service2 end ==== */
+    .serviceHeading h6 {
+        font-size: 16px;
+        max-width: 300px;
+    }
 
-/* ==== members start ==== */
-#members{
-    padding: 50px 0;
-}
-.membersHeading{
-    margin-bottom: 20px;
-}
-.membersHeading h3{
-    font-size: 22px;
-    max-width: 350px;
-}
-.membersHeading h6{
-    font-size: 16px;
-}
-.membersHeading p{
-    font-size: 12px;
-    line-height: 150%;
-}
-.membersLine{
-    margin-bottom: 20px;
-}
-.memberBox .card{
-    margin-bottom: 20px;
-}
-.memberBox .card .card-text{
-    font-size: 12px;
-    margin-bottom: 20px;
-}
-.memberIconWrap a i{
-    font-size: 16px;
-}
-/* ==== members end ==== */
+    .serviceHeading p {
+        font-size: 12px;
+        max-width: 300px;
+    }
 
-/* ==== company start ==== */
-#company{
-    padding: 10px 0 60px;
-}
-.companyImg{
+    .card {
+        margin-bottom: 20px;
+    }
 
-    position: relative;
-}
-.companyImgUp{
-    position: absolute;
-    bottom: -28px;
-    right: -12px;
-}
-.companyContent h3{
-    margin-top: 50px;
-    font-size: 22px;
-    width: 335px;
-}
-.companyContent p{
-    font-size: 12px;
-    width: 335px;
-}
-.companyWrapper{
-    display: flex;
-    gap: 20px;
-}
-.companyFlex1 h6 , .companyFlex2 h6{
-    font-size: 12px;
-    width: 174px;
-}
-.companyBtnWrap{
-    margin-top: 36px;
-    gap: 18px;
-}
-.companyBtnWrap a{
-    padding: 8px 20px;
-    font-size: 16px;
-}
-/* ==== company end ==== */
+    .card-body h5 {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
 
-/* ==== price start ==== */
-#price{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.priceHeading h5{
-    font-size: 14px;
-}
-.priceHeading h3{
-    font-size: 22px;
-    width: 330px;
-    margin: 12px auto 20px;
-}
-.priceToggle{
-    padding: 15px 8px;
-}
-.priceToggle .monthly{
-    font-size: 16px;
-    padding: 10px 22px;
-}
-.priceToggle .yearly{
-    font-size: 16px;
-    padding: 10px 22px;
-}
-.priceCardParent{
-    position: relative;
-}
-.priceCard{
-    position: relative; 
-    padding: 20px; 
-}
+    .card-body p {
+        font-size: 10px;
+        max-width: 340px;
+        margin-bottom: 24px;
+    }
 
-.priceCard h5{
-    font-size: 14px;
-}
-.priceTag h3{
-    font-size: 16px;
-}
-.priceTag h3 span{
-    font-size: 26px;
-}
-.unorder li::marker{
-    font-size: 12px;
-}
-.priceBtn a{
-   font-size: 14px;
-}
-/* ==== price end ==== */
+    .card-body .btn {
+        padding: 8px 16px;
+    }
 
-/* ==== experience end ==== */
-#experience{
-    margin-top: 0;
-    padding: 77px 0;
-}
-.experienceContent h3{
-    font-size: 22px;
-    max-width: 375px;
-}
-.experienceContent p{
-    font-size: 12px;
-    width: 400px;
-    margin-bottom: 20px;
-}
-.experienceIcon{
-    width: 40px;
-    height: 40px;
-    font-size: 12px;
-    margin-bottom: 20px;
-}
-.experienceContent2{
-    background-color: #36B864;
-    padding: 10px 8px 0 0;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-}
-.experienceContent2Flex{
-    gap: 12px;
-    padding: 10px;  
-}
-.experienceContent2Flex .experienceText{
-    margin-top: 32px;
-    position: relative;
-}
-.experienceUpIcon{
-    position: absolute;
-    top: 0;
-    right: 21px;
+    /* ==== service end ==== */
 
-}
-.experienceContent2Flex .experienceText h6{
-    font-size: 12px;
-}
-.experienceContent2Flex .experienceText span{
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 10px;
-    color: #666666;
-    margin-top: 12px ;
-}
-.experienceStarFlex{
-    margin-top: 12px;
-    display: flex;
-    font-size: 10px;
-    gap: 4px;
-    color: #FF9800;
-    margin-bottom: 16px;
-}
-.experienceContent2Flex .experienceText p{
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 1%;
-    color: #666666;
-    width: 200px;
-}
-/* ==== experience end ==== */
+    /* ==== service2 start ==== */
+    #service2 {
+        padding: 0 0 50px;
+    }
 
-/* ==== blog start ==== */
-#blog{
-    padding: 50px 0;
-}
-.blogHeading{
-    margin-bottom: 20px;
-}
-.blogHeading h3{
-    font-size: 22px;
-    width: 350px;
-}
-.blogHeading h6{
-    font-size: 14px;
-}
-.blogHeading p{
-    font-size: 10px;
-}
-.blogBox .card .card-body span{
-    font-size: 10px;
-}
-.blogBox .card .card-body h5{
-    font-size: 16px;
-}
-.blogBox .card .card-body p{
-    font-size: 12px;
-}
-.blogBox .card .card-body a{
-    font-size: 12px;
-    padding: 10px 50px;
-}
-/* ==== blog end ==== */
+    .service2Content {
+        margin-bottom: 40px;
+    }
 
-/* ==== contact start ==== */
-#contact {
+    .service2Content h6 {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+
+    .service2Content h3 {
+        font-size: 22px;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .service2Content p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 30px;
+    }
+
+    .service2Content a {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    /* ==== service2 end ==== */
+
+    /* ==== members start ==== */
+    #members {
+        padding: 50px 0;
+    }
+
+    .membersHeading {
+        margin-bottom: 20px;
+    }
+
+    .membersHeading h3 {
+        font-size: 22px;
+        max-width: 350px;
+    }
+
+    .membersHeading h6 {
+        font-size: 16px;
+    }
+
+    .membersHeading p {
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .membersLine {
+        margin-bottom: 20px;
+    }
+
+    .memberBox .card {
+        margin-bottom: 20px;
+    }
+
+    .memberBox .card .card-text {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .memberIconWrap a i {
+        font-size: 16px;
+    }
+
+    /* ==== members end ==== */
+
+    /* ==== company start ==== */
+    #company {
+        padding: 10px 0 60px;
+    }
+
+    .companyImg {
+
+        position: relative;
+    }
+
+    .companyImgUp {
+        position: absolute;
+        bottom: -28px;
+        right: -12px;
+    }
+
+    .companyContent h3 {
+        margin-top: 50px;
+        font-size: 22px;
+        width: 335px;
+    }
+
+    .companyContent p {
+        font-size: 12px;
+        width: 335px;
+    }
+
+    .companyWrapper {
+        display: flex;
+        gap: 20px;
+    }
+
+    .companyFlex1 h6,
+    .companyFlex2 h6 {
+        font-size: 12px;
+        width: 174px;
+    }
+
+    .companyBtnWrap {
+        margin-top: 36px;
+        gap: 18px;
+    }
+
+    .companyBtnWrap a {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+
+    /* ==== company end ==== */
+
+    /* ==== price start ==== */
+    #price {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .priceHeading h5 {
+        font-size: 14px;
+    }
+
+    .priceHeading h3 {
+        font-size: 22px;
+        width: 330px;
+        margin: 12px auto 20px;
+    }
+
+    .priceToggle {
+        padding: 15px 8px;
+    }
+
+    .priceToggle .monthly {
+        font-size: 16px;
+        padding: 10px 22px;
+    }
+
+    .priceToggle .yearly {
+        font-size: 16px;
+        padding: 10px 22px;
+    }
+
+    .priceCardParent {
+        position: relative;
+    }
+
+    .priceCard {
+        position: relative;
+        padding: 20px;
+    }
+
+    .priceCard h5 {
+        font-size: 14px;
+    }
+
+    .priceTag h3 {
+        font-size: 16px;
+    }
+
+    .priceTag h3 span {
+        font-size: 26px;
+    }
+
+    .unorder li::marker {
+        font-size: 12px;
+    }
+
+    .priceBtn a {
+        font-size: 14px;
+    }
+
+    /* ==== price end ==== */
+
+    /* ==== experience end ==== */
+    #experience {
+        margin-top: 0;
+        padding: 77px 0;
+    }
+
+    .experienceContent h3 {
+        font-size: 22px;
+        max-width: 375px;
+    }
+
+    .experienceContent p {
+        font-size: 12px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .experienceIcon {
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .experienceContent2 {
+        background-color: #36B864;
+        padding: 10px 8px 0 0;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .experienceContent2Flex {
+        gap: 12px;
+        padding: 10px;
+    }
+
+    .experienceContent2Flex .experienceText {
+        margin-top: 32px;
+        position: relative;
+    }
+
+    .experienceUpIcon {
+        position: absolute;
+        top: 0;
+        right: 21px;
+
+    }
+
+    .experienceContent2Flex .experienceText h6 {
+        font-size: 12px;
+    }
+
+    .experienceContent2Flex .experienceText span {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        color: #666666;
+        margin-top: 12px;
+    }
+
+    .experienceStarFlex {
+        margin-top: 12px;
+        display: flex;
+        font-size: 10px;
+        gap: 4px;
+        color: #FF9800;
+        margin-bottom: 16px;
+    }
+
+    .experienceContent2Flex .experienceText p {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 1%;
+        color: #666666;
+        width: 200px;
+    }
+
+    /* ==== experience end ==== */
+
+    /* ==== blog start ==== */
+    #blog {
+        padding: 50px 0;
+    }
+
+    .blogHeading {
+        margin-bottom: 20px;
+    }
+
+    .blogHeading h3 {
+        font-size: 22px;
+        width: 350px;
+    }
+
+    .blogHeading h6 {
+        font-size: 14px;
+    }
+
+    .blogHeading p {
+        font-size: 10px;
+    }
+
+    .blogBox .card .card-body span {
+        font-size: 10px;
+    }
+
+    .blogBox .card .card-body h5 {
+        font-size: 16px;
+    }
+
+    .blogBox .card .card-body p {
+        font-size: 12px;
+    }
+
+    .blogBox .card .card-body a {
+        font-size: 12px;
+        padding: 10px 50px;
+    }
+
+    /* ==== blog end ==== */
+
+    /* ==== contact start ==== */
+    #contact {
         padding: 20px 15px 40px;
     }
 
@@ -407,65 +485,105 @@
     }
 
 }
+
 /* ==== contact end ==== */
 
 /* ==== footer start ==== */
-#footer{
+#footer {
     padding: 50px 0 20px;
 }
-.footerLogoPart p{
+
+.footerLogoPart p {
     font-size: 12px;
 }
-.footerMenu h5{
+
+.footerMenu h5 {
     margin-top: 25px;
     font-size: 22px;
 }
-.footerMenu ul{
+
+.footerMenu ul {
     margin-top: 26px;
     row-gap: 12px;
 }
-.footerMenu ul li a{
+
+.footerMenu ul li a {
     font-size: 14px;
 }
-.footerForm h5{
+
+.footerForm h5 {
     margin-top: 25px;
     font-size: 22px;
 }
-.footerForm form input[type="email"]{
+
+.footerForm form input[type="email"] {
     padding: 8px 12px;
 }
-.footerForm form input::placeholder{
+
+.footerForm form input::placeholder {
     font-size: 12px;
 }
-.footerForm a{
+
+.footerForm a {
     font-size: 12px;
     padding: 8px 20px;
 }
-.copy{
+
+.copy {
     margin-top: 32px;
 }
-.copy h6{
+
+.copy h6 {
     font-size: 12px;
 }
+
 /* ==== footer end ==== */
- 
+
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) {
 
- }
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ==== navbar start ==== */
+    .navbar-brand img {
+        width: 130px;
+        height: 40px;
+    }
 
- }
+    .navbar-nav {
+        text-align: center;
+    }
 
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-toggler {
+        color: #36B864 !important;
+        font-size: 15px;
+    }
 
- }
+    .navbar-nav {
+        gap: 5px !important;
+    }
+
+    .nav-link {
+        font-size: 10px;
+    }
+
+    .navBtn {
+        text-align: center;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    /* ==== navbar end ==== */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
- }
+@media (min-width: 1200px) {}
