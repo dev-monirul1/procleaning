@@ -569,6 +569,16 @@
     }
 
     /* ==== service2 end ==== */
+
+    /* ==== company start ==== */
+    #company {
+        padding: 0 0 60px;
+    }
+    .companyImgUp {
+        bottom: 150px;
+        right: 220px;
+    }
+    /* ==== company end ==== */
 }
 
 /* Large devices (desktops, 992px and up) */
