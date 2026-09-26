@@ -596,6 +596,16 @@
         transform: translateX(-50%);
     }
     /* ==== price end ==== */
+
+    /* ==== experience end ==== */
+    #experience {
+        margin-top: 0;
+        padding: 77px 0;
+    }
+    .experienceIcon {
+        margin-bottom: 50px;
+    }
+    /* ==== experience end ==== */
 }
 
 /* Large devices (desktops, 992px and up) */
