@@ -608,29 +608,6 @@
     /* ==== experience end ==== */
 
     /* ==== blog start ==== */
-    /* #blog {
-        padding: 50px 0;
-    }
-
-
-    .blogBox .card .card-body {
-       
-    }
-
-    .blogBox .card .card-body h5 {
-    }
-
-    .blogBox .card .card-body p {
-        
-    }
-
-    .blogBox .card .card-body a {
-       
-    } */
-
-
-
-
     #blog {
         padding: 40px 0;
     }
@@ -648,6 +625,12 @@
 }
 
     /* ==== blog end ==== */
+
+    /* ==== contact start ==== */
+    #contact {
+        padding: 0 15px 40px;
+    }
+    /* ==== contact end ==== */
 
 
 /* Large devices (desktops, 992px and up) */
