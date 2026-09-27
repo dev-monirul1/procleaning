@@ -606,7 +606,49 @@
         margin-bottom: 50px;
     }
     /* ==== experience end ==== */
+
+    /* ==== blog start ==== */
+    /* #blog {
+        padding: 50px 0;
+    }
+
+
+    .blogBox .card .card-body {
+       
+    }
+
+    .blogBox .card .card-body h5 {
+    }
+
+    .blogBox .card .card-body p {
+        
+    }
+
+    .blogBox .card .card-body a {
+       
+    } */
+
+
+
+
+    #blog {
+        padding: 40px 0;
+    }
+    .blogBox {
+        margin-bottom: 30px;
+    }
+
+    .blogBox .card .card-body h5 {
+        width: 75%;
+    }
+
+    .blogBox .card .card-body p {
+        width: 50%;
+    }
 }
+
+    /* ==== blog end ==== */
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
