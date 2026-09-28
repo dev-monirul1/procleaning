@@ -702,16 +702,16 @@
     }
 
     .membersHeading h3 {
-        font-size: 22px;
-        max-width: 350px;
+        font-size: 26px;
+        max-width: 400px;
     }
 
     .membersHeading h6 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .membersHeading p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 150%;
     }
 
@@ -724,12 +724,12 @@
     }
 
     .memberBox .card .card-text {
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 20px;
     }
 
     .memberIconWrap a i {
-        font-size: 16px;
+        font-size: 1p8x;
     }
 
     /* ==== members end ==== */
