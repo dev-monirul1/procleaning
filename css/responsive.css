@@ -622,18 +622,18 @@
     }
 
     .serviceHeading h3 {
-        font-size: 20px;
+        font-size: 24px;
         max-width: 300px;
         margin-bottom: 20px;
     }
 
     .serviceHeading h6 {
-        font-size: 16px;
+        font-size: 18px;
         max-width: 300px;
     }
 
     .serviceHeading p {
-        font-size: 12px;
+        font-size: 14px;
         max-width: 300px;
     }
 
@@ -642,18 +642,18 @@
     }
 
     .card-body h5 {
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 16px;
     }
 
     .card-body p {
-        font-size: 10px;
+        font-size: 12px;
         max-width: 340px;
         margin-bottom: 24px;
     }
 
     .card-body .btn {
-        padding: 8px 16px;
+        padding: 10px 18px;
     }
 
     /* ==== service end ==== */
