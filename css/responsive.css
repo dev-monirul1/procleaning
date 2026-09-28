@@ -791,11 +791,11 @@
     }
 
     .priceHeading h5 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .priceHeading h3 {
-        font-size: 22px;
+        font-size: 26px;
         width: 330px;
         margin: 12px auto 20px;
     }
@@ -805,26 +805,28 @@
     }
 
     .priceToggle .monthly {
-        font-size: 16px;
+        font-size: 18px;
         padding: 10px 22px;
     }
 
     .priceToggle .yearly {
-        font-size: 16px;
+        font-size: 18px;
         padding: 10px 22px;
     }
 
     .priceCardParent {
         position: relative;
     }
-
     .priceCard {
         position: relative;
         padding: 20px;
+        width: 400px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .priceCard h5 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .priceTag h3 {
@@ -832,15 +834,15 @@
     }
 
     .priceTag h3 span {
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .unorder li::marker {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .priceBtn a {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /* ==== price end ==== */
