@@ -938,33 +938,35 @@
     }
 
     .blogHeading h3 {
-        font-size: 22px;
-        width: 350px;
+        font-size: 26px;
+        width: 400px;
     }
 
     .blogHeading h6 {
-        font-size: 14px;
-    }
-
-    .blogHeading p {
-        font-size: 10px;
-    }
-
-    .blogBox .card .card-body span {
-        font-size: 10px;
-    }
-
-    .blogBox .card .card-body h5 {
         font-size: 16px;
     }
 
-    .blogBox .card .card-body p {
+    .blogHeading p {
         font-size: 12px;
     }
 
-    .blogBox .card .card-body a {
+    .blogBox .card .card-body span {
         font-size: 12px;
-        padding: 10px 50px;
+    }
+
+    .blogBox .card .card-body h5 {
+        font-size: 18px;
+        width: 75%;
+    }
+
+    .blogBox .card .card-body p {
+        font-size: 14px;
+         width: 50%;
+    }
+
+    .blogBox .card .card-body a {
+        font-size: 15px;
+        padding: 12px 55px;
     }
 
     /* ==== blog end ==== */
