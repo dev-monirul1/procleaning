@@ -854,12 +854,12 @@
     }
 
     .experienceContent h3 {
-        font-size: 22px;
+        font-size: 26px;
         max-width: 375px;
     }
 
     .experienceContent p {
-        font-size: 12px;
+        font-size: 14px;
         width: 400px;
         margin-bottom: 20px;
     }
@@ -867,12 +867,11 @@
     .experienceIcon {
         width: 40px;
         height: 40px;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 20px;
     }
 
     .experienceContent2 {
-        background-color: #36B864;
         padding: 10px 8px 0 0;
         border-radius: 20px;
         -webkit-border-radius: 20px;
@@ -882,7 +881,7 @@
     }
 
     .experienceContent2Flex {
-        gap: 12px;
+        gap: 30px;
         padding: 10px;
     }
 
@@ -899,11 +898,11 @@
     }
 
     .experienceContent2Flex .experienceText h6 {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .experienceContent2Flex .experienceText span {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 10px;
         color: #666666;
@@ -920,8 +919,7 @@
     }
 
     .experienceContent2Flex .experienceText p {
-        font-size: 10px;
-        font-weight: 400;
+        font-size: 12px;
         line-height: 15px;
         letter-spacing: 1%;
         color: #666666;
