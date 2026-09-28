@@ -982,46 +982,46 @@
     }
 
     .contactContent h4 {
-        font-size: 22px;
+        font-size: 26px;
         margin-bottom: 40px;
     }
 
     .contactBox {
-        padding: 14px;
+        padding: 16px;
     }
 
     .contactIcon {
         width: 42px;
         height: 42px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .contactBox .contactBoxText h6 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .contactBox .contactBoxText p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .contactForm h4 {
-        font-size: 22px;
+        font-size: 26px;
     }
 
     .contactForm p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 150%;
         width: 330px;
     }
 
     .contactForm label input {
         padding: 14px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .contactForm label textarea {
         padding: 14px 14px 45px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .contactForm button {
