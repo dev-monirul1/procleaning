@@ -668,25 +668,26 @@
     }
 
     .service2Content h6 {
-        font-size: 15px;
+        font-size: 18px;
         margin-bottom: 16px;
     }
 
     .service2Content h3 {
-        font-size: 22px;
+        font-size: 26px;
         max-width: 350px;
         margin-bottom: 20px;
     }
 
     .service2Content p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 16px;
         margin-bottom: 30px;
+        max-width: 380px;
     }
 
     .service2Content a {
-        padding: 8px 20px;
-        font-size: 12px;
+        padding: 10px 20px;
+        font-size: 14px;
     }
 
     /* ==== service2 end ==== */
