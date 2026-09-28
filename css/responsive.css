@@ -583,26 +583,25 @@
     }
 
     .bannerContent h5 {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 90%;
-        margin-bottom: 8px;
-        max-width: 250px;
+        margin-bottom: 12px;
+        max-width: 300px;
     }
 
     .bannerContent h1 {
-        font-weight: 600;
-        font-size: 22px;
+        font-size: 26px;
         line-height: 115%;
-        max-width: 330px;
+        max-width: 380px;
         margin-bottom: 12px;
     }
 
     .bannerContent p {
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 16px;
         color: #666666;
-        max-width: 220px;
+        max-width: 330px;
         margin-bottom: 20px;
     }
 
@@ -611,8 +610,8 @@
     }
 
     .bannerBtnFlex a {
-        padding: 8px 18px;
-        font-size: 10px;
+        padding: 10px 18px;
+        font-size: 12px;
     }
 
     /* ==== banner end ==== */
