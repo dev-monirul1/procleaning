@@ -1221,6 +1221,13 @@
         margin-bottom: 40px;
     }
 
+    .service2ImgUp {
+        bottom: -42px;
+        left: -100px;
+        height: 230px;
+        width: 230px;
+    }
+
     /* ==== service2 end ==== */
 
     /* ==== company start ==== */
