@@ -1230,6 +1230,17 @@
 
     /* ==== service2 end ==== */
 
+    /* ==== members start ==== */
+    .membersHeading h3 {
+        width: 590px;
+    }
+
+    .memberBox .card .card-text {
+        width: 289px;
+    }
+
+    /* ==== members end ==== */
+
     /* ==== company start ==== */
     #company {
         padding: 0 0 60px;
