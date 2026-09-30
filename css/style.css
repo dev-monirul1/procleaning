@@ -524,6 +524,7 @@ h1,h2,h3,h4,h5,h6,p{
     -ms-border-radius: 20px;
     -o-border-radius: 20px; 
     padding: 30px 35px; 
+    transition: .5s;
 }
 
 .priceCard h5{
@@ -587,6 +588,9 @@ h1,h2,h3,h4,h5,h6,p{
    -moz-transition: .5s;
    -ms-transition: .5s;
    -o-transition: .5s;
+}
+.priceCard:hover{
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
 }
 .priceCard:hover .priceBtn a{
     background-color: #36B864;
