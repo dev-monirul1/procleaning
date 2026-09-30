@@ -1518,8 +1518,17 @@
 .contactContent {
     margin-top: 35px;
 }
+.contactForm p{
+    max-width: 400px;
+}
 
 /* ==== contact end ==== */
+
+/* ==== footer start ==== */
+.footerLogoPart p{
+    max-width: 300px;
+}
+/* ==== footer end ==== */
 
 
 /* Extra large devices (large desktops, 1200px and up) */
