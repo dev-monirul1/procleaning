@@ -1254,18 +1254,19 @@
         right: 220px;
     }
 
-.companyImg{
-    width: 270px;
-    height: 270px;
-}
+    .companyImg {
+        width: 270px;
+        height: 270px;
+    }
 
-.companyImgUp{
-    bottom: -48px;
-    right: -120px;
-    width: 220px;
-    height: 220px;
-}
-.companyContent h3 {
+    .companyImgUp {
+        bottom: -48px;
+        right: -120px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .companyContent h3 {
         margin-top: 50px;
         font-size: 26px;
         width: 400px;
@@ -1352,9 +1353,10 @@
     .priceTag h3 span {
         font-size: 24px;
     }
-    .unorder li{
-    font-size: 14px;
-}
+
+    .unorder li {
+        font-size: 14px;
+    }
 
     .unorder li::marker {
         font-size: 12px;
@@ -1426,7 +1428,6 @@
         font-size: 12px;
         font-weight: 400;
         line-height: 10px;
-        color: #666666;
         margin-top: 12px;
     }
 
@@ -1435,7 +1436,6 @@
         display: flex;
         font-size: 10px;
         gap: 4px;
-        color: #FF9800;
         margin-bottom: 16px;
     }
 
@@ -1443,7 +1443,6 @@
         font-size: 12px;
         line-height: 15px;
         letter-spacing: 1%;
-        color: #666666;
         width: 200px;
     }
 
@@ -1451,25 +1450,7 @@
     /* ==== experience end ==== */
 
     /* ==== blog start ==== */
-    /* #blog {
-        padding: 40px 0;
-    }
-
-    .blogBox {
-        margin-bottom: 30px;
-    }
-
-    .blogBox .card .card-body h5 {
-        width: 75%;
-    }
-
-    .blogBox .card .card-body p {
-        width: 50%;
-    }
-} */
-
-
-#blog {
+    #blog {
         padding: 50px 0;
     }
 
@@ -1509,27 +1490,47 @@
         padding: 10px 50px;
     }
 
-/* ==== blog end ==== */
+    /* ==== blog end ==== */
 
-/* ==== contact start ==== */
-#contact {
-    padding: 0 15px 40px;
-}
-.contactContent {
-    margin-top: 35px;
-}
-.contactForm p{
-    max-width: 400px;
-}
+    /* ==== contact start ==== */
+    #contact {
+        padding: 0 15px 40px;
+    }
 
-/* ==== contact end ==== */
+    .contactContent {
+        margin-top: 35px;
+    }
 
-/* ==== footer start ==== */
-.footerLogoPart p{
-    max-width: 300px;
+    .contactForm p {
+        max-width: 400px;
+    }
+
+    /* ==== contact end ==== */
+
+    /* ==== footer start ==== */
+    .footerLogoPart p {
+        max-width: 300px;
+    }
+
+    /* ==== footer end ==== */
 }
-/* ==== footer end ==== */
-
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+    /* ==== experience start ==== */
+    #experience {
+        margin-top: 200px;
+    }
+
+    .experienceContent2Flex .experienceText p {
+        width: 300px;
+    }
+    /* ==== experience end ==== */
+
+    /* ==== contact start ==== */
+    .contactContent {
+        margin-top: 40px;
+    }
+    /* ==== contact end ==== */
+}
