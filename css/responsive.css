@@ -1451,7 +1451,7 @@
     /* ==== experience end ==== */
 
     /* ==== blog start ==== */
-    #blog {
+    /* #blog {
         padding: 40px 0;
     }
 
@@ -1466,7 +1466,48 @@
     .blogBox .card .card-body p {
         width: 50%;
     }
-}
+} */
+
+
+#blog {
+        padding: 50px 0;
+    }
+
+    .blogHeading {
+        margin-bottom: 20px;
+    }
+
+    .blogHeading h3 {
+        font-size: 28px;
+        max-width: 500px;
+    }
+
+    .blogHeading h6 {
+        font-size: 18px;
+    }
+
+    .blogHeading p {
+        font-size: 14px;
+    }
+
+    .blogBox .card .card-body span {
+        font-size: 12px;
+    }
+
+    .blogBox .card .card-body h5 {
+        font-size: 16px;
+        max-width: 250px;
+    }
+
+    .blogBox .card .card-body p {
+        font-size: 12px;
+        max-width: 250px;
+    }
+
+    .blogBox .card .card-body a {
+        font-size: 12px;
+        padding: 10px 50px;
+    }
 
 /* ==== blog end ==== */
 
